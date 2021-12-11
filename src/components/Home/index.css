@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.home-bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.home-bg-container-light {
+  background-color: #ffffff;
+}
+
+.home-bg-container-dark {
+  background-color: #000000;
+}
+
+.home-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-content-container-light {
+  color: #1e293b;
+}
+
+.home-content-container-dark {
+  color: #ffffff;
+}
+
+.home-image {
+  height: 120px;
+  width: 120px;
+}
+
+.home-title {
+  font-size: 48px;
+}

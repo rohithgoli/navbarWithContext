@@ -1,0 +1,70 @@
+/* Write your CSS here */
+.navbar-bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2px solid #dcdcdc;
+  padding: 10px 20px;
+}
+
+.navbar-bg-container-light {
+  background-color: #ffffff;
+}
+
+.navbar-bg-container-dark {
+  background-color: #333333;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  font-family: 'Roboto';
+}
+
+@media screen and (max-width: 767px) {
+  .nav-container {
+    width: 90%;
+  }
+}
+
+.website-logo {
+  width: 35px;
+  height: 35px;
+}
+
+.nav-link-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0px;
+  width: 120px;
+}
+
+.nav-link-light {
+  color: #1e293b;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-link-dark {
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.theme-btn {
+  border: 0px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.theme-image {
+  width: 35px;
+  height: 35px;
+}
